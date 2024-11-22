@@ -294,7 +294,7 @@
 }
 
 .fruite .fruite-categorie .fruite-name a:hover {
-    color: var(--bs-secondary);
+    color:var(--bs-secondary);
 }
 
 .fruite .fruite-item {
@@ -421,11 +421,13 @@
     position: absolute;
     top: -58px;
     right: 0;
-    color: var(--bs-primary);
+    color:var(--bs-primary);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
     transition: 0.5s;
+    text-align: justify; /* Menambahkan ini untuk perataan teks */
+    width: 100%; /* Pastikan elemen cukup lebar */
 }
 
 .testimonial .owl-nav .owl-prev:hover {
@@ -448,6 +450,7 @@
     background: var(--bs-secondary);
     color: var(--bs-white);
 }
+
 /*** testimonial End ***/
 
 
